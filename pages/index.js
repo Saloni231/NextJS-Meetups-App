@@ -43,6 +43,6 @@ export async function getStaticProps() {
         image: meetup.image,
       })),
     },
-    revalidate: 10, //this will re generate this page every 10 seconds
+    revalidate: 1, //this will re generate this page every 10 seconds
   };
 }
